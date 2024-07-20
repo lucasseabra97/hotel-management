@@ -28,7 +28,7 @@ export default function RootLayout({
         <ThemeProvider>
           <main className="font-normal">
             <Header />
-            {children}
+              {children}
             <Footer />
           </main>
         </ThemeProvider>
